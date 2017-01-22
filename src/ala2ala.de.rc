@@ -1,0 +1,152 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resources\resource.de.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 411, 289
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Petroglyph Animation Converter"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Diese Programm konvertiert Animationen (.ala) Dateien zwischen Empire at War und Forces of Corruption Datenformaten hin und her.",IDC_STATIC,7,7,397,19
+    GROUPBOX        "Schritt 1: Dateien zur Konvertierung auswählen",IDC_STATIC,7,26,397,158
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_OWNERDATA | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,14,37,375,122,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Datei &hinzufügen",IDC_BUTTON1,114,164,67,14
+    PUSHBUTTON      "Datei &entfernen",IDC_BUTTON2,222,164,67,14,WS_DISABLED
+    GROUPBOX        "Schritt 2: Zielordner auswählen",IDC_STATIC,7,186,397,36
+    EDITTEXT        IDC_EDIT1,14,199,323,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Duchsuchen",IDC_BUTTON3,339,199,50,14
+    GROUPBOX        "Schritt 3: Ins gewünschte Format konverteiren",IDC_STATIC,7,225,397,36
+    PUSHBUTTON      "Ins &andere Format Konvertieren",IDC_BUTTON4,148,238,117,14,WS_DISABLED
+    PUSHBUTTON      "&Beenden",IDCANCEL,174,268,57,14
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",NOT WS_VISIBLE | WS_BORDER,14,239,375,14
+    PUSHBUTTON      "Konvertieren nach &EaW",IDC_BUTTON5,29,238,117,14,WS_DISABLED
+    PUSHBUTTON      "Konvertieren nach &FoC",IDC_BUTTON6,267,238,117,14,WS_DISABLED
+    LTEXT           "Version 1.2, by Mike Lankamp",IDC_STATIC,308,274,96,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 404
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 282
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_UI_INITIALIZATION "UI kann nicht initialisiert werden"
+    IDS_FILES_ALA           "Animations Dateien"
+    IDS_FILES_ALL           "Alle Dateien"
+    IDS_ERROR_FILE_COUNT    "Zu viele Dateien ausgewählt"
+    IDS_ERROR_FILE_OPEN     "Kann nicht öffnen:\n%ls\n\nFortfahren?"
+    IDS_ERROR_FILE_FORMAT   "Folgende Datei konnte nicht als Animation gelesen werden und wurden übersprungen:\n%ls"
+    IDS_QUERY_TARGET_FOLDER "Bitte den Zielort auswählen"
+    IDS_ERROR_PATH_COMPOSE  "Pfad der Zielangabe kann nicht errkannt werden"
+    IDS_ERROR_FILE_CREATE   "Neue Datei kann nicht erstellt werden:\n%ls"
+    IDS_ERROR_CONVERSION    "Konvertierung fehlgeschlagen:\n%ls"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILENAME            "Dateiname"
+    IDS_SIZE                "Größe"
+    IDS_TYPE                "Typ"
+    IDS_ERROR_FILE_READ     "Datei kann nicht gelsen werden"
+    IDS_ERROR_FILE_WRITE    "Datei kann nicht geschrieben werden"
+    IDS_ERROR_FILE_CORRUPT  "fehlerhafte Datei"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Netherlands) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resources\\resource.de.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Dutch (Netherlands) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
